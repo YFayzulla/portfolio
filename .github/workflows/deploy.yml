@@ -16,6 +16,6 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           script: |
-            cd /var/www/html/portfolio
+            cd /var/www/portfolio
             git pull origin main
             echo "Deploy success 🚀"
